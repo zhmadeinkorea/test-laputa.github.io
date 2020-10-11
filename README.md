@@ -21,8 +21,11 @@
 ```
 ![4](https://user-images.githubusercontent.com/72656206/95671715-1f89db80-0bd5-11eb-931b-79d3ee1f82de.JPG)
 ![5](https://user-images.githubusercontent.com/72656206/95671716-20227200-0bd5-11eb-8774-7a060481f29a.JPG)
+![8](https://user-images.githubusercontent.com/72656206/95671800-df772880-0bd5-11eb-8782-9edddfbdf1ca.JPG)
+
 ```
 글작성이 가능하고, 파일 업로드 및 다운로드가 가능합니다
+게시글을 작성한 ID와 현재 로그인 된 ID가 같으면 수정 및 삭제가 가능합니다.
 ```
 ```
 ##comment.jsp 및 join화면
