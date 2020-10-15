@@ -40,10 +40,13 @@
 		<div id="menu">COMMENT</div>
 		<div id="main_article">
 
-
 			<form action="commentAction.jsp">
+			<%
+			if (userID!=null){
+			%>
 			<div><%=user.getUserName()%>/<%=userID %>
 			</div>
+			<%} %>
 				<textarea placeholder="REPLY" style="width: 100%; height: 80%;"
 					name="commentContent"></textarea>
 				<input type="hidden" name="userID" value="<%=userID%>"> <br>
